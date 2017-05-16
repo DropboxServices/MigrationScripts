@@ -28,7 +28,7 @@ Script Description: Script that lets the user export all groups and group member
 Script Use Case: During a migration from Box to Dropbox, you can run this script and then use the output to run against the Create Group and Create Group Member scripts to easily mass create all groups and group members in Dropbox. Those groups will point to this output file, then create the needed CSV files to import directly into the Admin Toolkit for mass creation.
 
 
-# Create Group Script for Admin Toolkit Import (Dropbox)
+## Create Group Script for Admin Toolkit Import (Dropbox)
 Script Description: Script that lets the user point to the output CSV file of the Export Group and Group Members (Box) script and then creates groups output file that is used to import into the DfB Admin Toolkit to mass create groups.
 
 Script Use Case: The user is familiar with using the Dfb Admin Toolkit and wants to easily mimic and mass create their groups for migration from Box to Dropbox. They can point this script to the output of the Export Group and Group Members (Box) script and produce a CSV file to import easily into the Dfb Admin Toolkit.
