@@ -86,3 +86,16 @@ Script Use Case: For pre and post-migration verification of data. This script al
 Script Description: Script that lets the user export a list of all files and folders for all users on a Box Enterprise team.
 
 Script Use Case: For pre and post-migration verification of data. This script allows you to do this, by dumping all content (files and folders) to CSV and lets you sort columns as needed to verify any type of file or folder.
+
+
+## Export Team Folder Size To CSV (Dropbox)
+Script Description: Script that lets the user export a list of all team folders and their size (in megabytes) to CSV file.
+
+Script Use Case: Team Admin needs to see how team folder sizes are growing, can run this and see the outout in CSV format, filtering on size if needed.
+
+
+## Move Team Folder Content to Another Team Folder (Dropbox)
+Script Description: Script that lets the user move all files and folders in a team folder (from any level of path) to anopther team folder.
+
+Script Use Case: After migration or anytime, team admin needs to move contents of a team folder (or a lower path such as /Team Folder/Images) to another team folder.
+
